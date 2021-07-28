@@ -29,7 +29,7 @@
             flex-basis: 100%;
             border-top-left-radius: 60px;
             border-top-right-radius: 60px;
-            background-color: #81eec827;
+            background-color: #81eec818;
         }
     }
 
@@ -40,8 +40,8 @@
     .info-grid{
         grid-template-columns: 1fr 1fr;
         font-size: 0.8rem;
-        margin: auto;
-        width: 95%;
+        align-items: center;
+        justify-items: center;
         padding-top: 1rem;
     }
     .btn{

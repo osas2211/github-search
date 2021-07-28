@@ -138,6 +138,15 @@ body {
 .profile {
   font-family: "Lato",Arial, Helvetica, sans-serif; }
 
+footer {
+  padding: 1.2rem;
+  background: linear-gradient(to left, #4D9078, #4d9079c0);
+  color: #FFFCF9;
+  font-size: 0.9rem;
+  text-align: center;
+  width: 100%;
+  text-transform: capitalize; }
+
 @media (max-width: 600px) {
   .profile {
     flex-direction: row;
@@ -166,14 +175,14 @@ body {
       flex-basis: 100%;
       border-top-left-radius: 60px;
       border-top-right-radius: 60px;
-      background-color: #81eec827; }
+      background-color: #81eec818; }
   .searchInput {
     width: 14rem; }
   .info-grid {
     grid-template-columns: 1fr 1fr;
     font-size: 0.8rem;
-    margin: auto;
-    width: 95%;
+    align-items: center;
+    justify-items: center;
     padding-top: 1rem; }
   .btn:link, .btn:visited {
     width: 11rem; } }
