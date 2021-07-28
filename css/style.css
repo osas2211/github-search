@@ -11,7 +11,7 @@
   padding: 0.8rem;
   text-transform: uppercase;
   font-size: 0.9rem;
-  background-color: #4D9078;
+  background: linear-gradient(to left, #4D9078, #4d9079c0);
   color: #FFFCF9;
   text-decoration: none;
   border-radius: 0px;
