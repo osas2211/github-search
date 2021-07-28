@@ -82,12 +82,6 @@
     .profile__tech--info {
       flex-basis: 30%; }
 
-.bottom {
-  height: 8rem;
-  border-radius: 50px;
-  transform: translateY(-4rem);
-  background-color: #FFFCF9; }
-
 .head {
   font-size: 1.5rem;
   text-align: center; }
@@ -115,29 +109,41 @@ body {
   font-family: "Lato",Arial, Helvetica, sans-serif; }
 
 @media (max-width: 600px) {
-  .top {
-    background-color: #4d907944; }
+  .header {
+    background-color: #81eec844; }
   .profile {
     flex-direction: row;
-    width: 90vw;
+    width: 100vw;
     margin-top: 1rem;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    margin-top: 0; }
     .profile__bio {
       flex-basis: 100%;
+      padding: 1rem;
       width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      background-color: #81eec844; }
       .profile__bio--photo {
         clip-path: circle(50% at 50% 50%);
         height: 12rem;
         width: 12rem; }
     .profile__tech {
-      flex-basis: 100%; }
+      padding: 1rem;
+      padding-top: 3rem;
+      flex-basis: 100%;
+      border-radius: 50px;
+      margin-top: -4rem;
+      background-color: #FFFCF9; }
   .searchInput {
     width: 14rem; }
   .info-grid {
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.8rem;
+    margin: auto;
+    width: 95%;
+    padding-top: 1rem; } }
