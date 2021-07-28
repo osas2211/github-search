@@ -44,4 +44,10 @@
         width: 95%;
         padding-top: 1rem;
     }
+    .btn{
+        &:link,
+        &:visited{
+            width: 11rem;
+        }
+    }
 }

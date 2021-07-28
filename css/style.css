@@ -15,8 +15,7 @@
   color: #FFFCF9;
   text-decoration: none;
   border-radius: 0px;
-  transition: all .3s;
-  text-align: left; }
+  transition: all .3s; }
 
 .btn:hover {
   outline: 1px solid #022124bb;
@@ -83,7 +82,8 @@
     .profile__tech--info {
       flex-basis: 30%; }
     .profile__tech--repos {
-      flex-basis: 70%; }
+      flex-basis: 70%;
+      margin-top: 2rem; }
       .profile__tech--repos .repo {
         display: flex;
         width: 100%;
@@ -174,4 +174,6 @@ body {
     font-size: 0.8rem;
     margin: auto;
     width: 95%;
-    padding-top: 1rem; } }
+    padding-top: 1rem; }
+  .btn:link, .btn:visited {
+    width: 11rem; } }
