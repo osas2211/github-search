@@ -81,6 +81,35 @@
     flex-direction: column; }
     .profile__tech--info {
       flex-basis: 30%; }
+    .profile__tech--repos {
+      flex-basis: 70%; }
+      .profile__tech--repos .repo {
+        display: flex;
+        width: 100%;
+        padding: 0.7rem;
+        margin-bottom: 0.5rem;
+        border: 1px solid #022124bb; }
+        .profile__tech--repos .repo .repo-name {
+          flex-basis: 30%;
+          padding: 0.3rem;
+          text-align: center; }
+          .profile__tech--repos .repo .repo-name a {
+            text-decoration: none;
+            border-bottom: 1px solid #006D77;
+            color: #006D77; }
+        .profile__tech--repos .repo .stars {
+          flex-basis: 10%;
+          padding: 0.3rem;
+          color: #FFFCF9;
+          background-color: #4361EE;
+          text-align: center;
+          margin-right: 10%; }
+        .profile__tech--repos .repo .languages {
+          flex-basis: 60%;
+          padding: 0.3rem;
+          background: linear-gradient(to left, #4D9078, #4d9079c0);
+          text-align: center;
+          color: #FFFCF9; }
 
 .head {
   font-size: 1.5rem;
@@ -120,6 +149,7 @@ body {
     .profile__bio {
       flex-basis: 100%;
       padding: 1rem;
+      margin-right: 0;
       width: 100%;
       display: flex;
       flex-direction: column;

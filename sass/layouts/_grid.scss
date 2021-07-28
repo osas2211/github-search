@@ -49,6 +49,44 @@
             flex-basis: 30%;
             
         }
+        &--repos{
+            flex-basis: 70%;
+            .repo{
+                display: flex;
+                width: 100%;
+                padding: 0.7rem;
+                margin-bottom: 0.5rem;
+                border: 1px solid $color-ming-text;
+
+                .repo-name{
+                    flex-basis: 30%;
+                    padding: 0.3rem;
+                    text-align: center;
+                    a{
+                        text-decoration: none;
+                        border-bottom: 1px solid $color-ming;
+                        color: $color-ming;
+                    }
+                }
+                .stars{
+                    flex-basis: 10%;
+                    padding: 0.3rem;
+                    color: $bg-color;
+                    background-color: #4361EE;
+                    text-align: center;
+                    margin-right: 10%;
+                }
+                .languages{
+                    flex-basis: 60%;
+                    padding: 0.3rem;
+                    background: linear-gradient(to left, $color-emerald, #4d9079c0);
+                    text-align: center;
+                    color: $bg-color;
+                }
+            }
+            
+        }
+
     }
 }
 
