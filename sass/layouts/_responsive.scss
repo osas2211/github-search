@@ -6,6 +6,9 @@
         flex-direction: row;
         width: 90vw;
         margin-top: 1rem;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
 
         &__bio{
             flex-basis: 100%;
@@ -20,9 +23,16 @@
                 width: 12rem;
             }
         }
+        &__tech{
+            flex-basis: 100%;
+        }
     }
 
     .searchInput {
         width: 14rem;
+    }
+
+    .info-grid{
+        grid-template-columns: 1fr 1fr;
     }
 }
