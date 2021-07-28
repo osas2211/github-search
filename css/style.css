@@ -7,7 +7,7 @@
 
 .btn:link, .btn:visited {
   display: inline-block;
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 0.8rem;
   text-transform: uppercase;
   font-size: 0.9rem;
@@ -109,8 +109,6 @@ body {
   font-family: "Lato",Arial, Helvetica, sans-serif; }
 
 @media (max-width: 600px) {
-  .header {
-    background-color: #81eec844; }
   .profile {
     flex-direction: row;
     width: 100vw;
@@ -126,8 +124,7 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
-      background-color: #81eec844; }
+      align-items: center; }
       .profile__bio--photo {
         clip-path: circle(50% at 50% 50%);
         height: 12rem;
@@ -136,9 +133,9 @@ body {
       padding: 1rem;
       padding-top: 3rem;
       flex-basis: 100%;
-      border-radius: 50px;
-      margin-top: -4rem;
-      background-color: #FFFCF9; }
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      background-color: #81eec844; }
   .searchInput {
     width: 14rem; }
   .info-grid {

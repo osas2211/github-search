@@ -1,6 +1,5 @@
 @media (max-width: 600px){
     .header{
-        background-color: #81eec844;
     }
     .profile{
         flex-direction: row;
@@ -19,7 +18,6 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-color: #81eec844;
             &--photo {
                 clip-path: circle(50% at 50% 50%);
                 height: 12rem;
@@ -30,9 +28,9 @@
             padding: 1rem;
             padding-top: 3rem;
             flex-basis: 100%;
-            border-radius: 50px;
-            margin-top: -4rem;
-            background-color: $bg-color;
+            border-top-left-radius: 60px;
+            border-top-right-radius: 60px;
+            background-color: #81eec844;
         }
     }
 
