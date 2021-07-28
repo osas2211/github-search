@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-primary-light;
+    padding: 1rem;
+    &-primary{
+        color: $color-ming;
+        padding-bottom: 0.5rem;
+        font-size: 1.3rem;
+    }
+}
+
+.searchInput{
+    outline: none;
+    padding: 0.4rem;
+    width: 18rem;
+    font-size: 1rem;
+}
+.searchUser{
+    padding: 0.5rem;
+    width: 6rem;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: $color-ming;
+    color: $bg-color;
+    border: 0;
+    cursor: pointer;
+}

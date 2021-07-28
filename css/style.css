@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #8cd6f562;
+  padding: 1rem; }
+  .header-primary {
+    color: #006D77;
+    padding-bottom: 0.5rem;
+    font-size: 1.3rem; }
+
+.searchInput {
+  outline: none;
+  padding: 0.4rem;
+  width: 18rem;
+  font-size: 1rem; }
+
+.searchUser {
+  padding: 0.5rem;
+  width: 6rem;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #006D77;
+  color: #FFFCF9;
+  border: 0;
+  cursor: pointer; }
+
+body {
+  font-family: "Roboto",Arial, Helvetica, sans-serif; }
