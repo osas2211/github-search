@@ -26,7 +26,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  -background-color: #8cd6f562;
   padding: 1rem; }
   .header-primary {
     color: #006D77;
@@ -100,4 +99,6 @@ body {
       .profile__bio--photo {
         clip-path: circle(50% at 50% 50%);
         height: 15rem;
-        width: 15rem; } }
+        width: 15rem; }
+  .searchInput {
+    width: 14rem; } }
