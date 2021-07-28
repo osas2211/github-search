@@ -3,6 +3,9 @@
     width: 95vw;
     margin: 0 auto;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
     &__bio{
         flex-basis: 26%;
@@ -41,3 +44,4 @@
         flex-basis: 69%;
     }
 }
+

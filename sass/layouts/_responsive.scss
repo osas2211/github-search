@@ -1,0 +1,21 @@
+@media (max-width: 600px){
+    .profile{
+        flex-direction: row;
+        width: 90vw;
+        margin-top: 1rem;
+
+        &__bio{
+            flex-basis: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &--photo {
+                clip-path: circle(50% at 50% 50%);
+                height: 15rem;
+                width: 15rem;
+            }
+        }
+    }
+}
