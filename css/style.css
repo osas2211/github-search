@@ -8,14 +8,15 @@
 .btn:link, .btn:visited {
   display: inline-block;
   margin-top: 1rem;
-  padding: 0.9rem;
+  padding: 0.8rem;
   text-transform: uppercase;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   background: linear-gradient(to left, #4D9078, #4d9079c0);
   color: #FFFCF9;
   text-decoration: none;
   border-radius: 0px;
-  transition: all .3s; }
+  transition: all .3s;
+  text-align: left; }
 
 .btn:hover {
   outline: 1px solid #022124bb;
