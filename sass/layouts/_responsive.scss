@@ -7,6 +7,9 @@
         align-items: center;
         flex-wrap: wrap;
         margin-top: 0;
+        transition: all .5s;
+        animation-name: moveUp;
+        animation-duration: .5s;
 
         &__bio{
             flex-basis: 100%;
@@ -21,6 +24,7 @@
                 clip-path: circle(50% at 50% 50%);
                 height: 12rem;
                 width: 12rem;
+                
             }
         }
         &__tech{
@@ -30,6 +34,9 @@
             border-top-left-radius: 60px;
             border-top-right-radius: 60px;
             background: linear-gradient(to right, #81eec825, $bg-color);
+            &--repos{
+                font-size: 0.75rem;
+            }
         }
     }
 
