@@ -71,7 +71,6 @@
       padding: 0.6rem; }
     .profile__bio--info p {
       word-spacing: 2px;
-      letter-spacing: 0px;
       color: #022124bb; }
   .profile__tech {
     flex-basis: 71%;
@@ -102,7 +101,7 @@
           flex-basis: 10%;
           padding: 0.3rem;
           color: #FFFCF9;
-          background-color: #4361EE;
+          background-color: #6d84e9;
           text-align: center;
           margin-right: 10%; }
         .profile__tech--repos .repo .languages {
@@ -175,7 +174,7 @@ footer {
       flex-basis: 100%;
       border-top-left-radius: 60px;
       border-top-right-radius: 60px;
-      background-color: #81eec818; }
+      background: linear-gradient(to right, #81eec825, #FFFCF9); }
   .searchInput {
     width: 14rem; }
   .info-grid {
