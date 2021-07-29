@@ -104,7 +104,7 @@
           background-color: #6d84e9;
           text-align: center;
           margin-right: 10%; }
-        .profile__tech--repos .repo .languages {
+        .profile__tech--repos .repo .created {
           flex-basis: 60%;
           padding: 0.3rem;
           background: linear-gradient(to left, #4D9078, #4d9079c0);
@@ -130,6 +130,13 @@
     background: linear-gradient(to right, #22473a, #316351);
     -webkit-background-clip: text;
     color: transparent; }
+
+.error {
+  display: inline-block;
+  margin: 1.5rem;
+  background-color: #9c2b2b;
+  padding: 2rem;
+  color: #FFFCF9; }
 
 body {
   font-family: "Roboto",Arial, Helvetica, sans-serif; }

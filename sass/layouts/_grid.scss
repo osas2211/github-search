@@ -76,7 +76,7 @@
                     text-align: center;
                     margin-right: 10%;
                 }
-                .languages{
+                .created{
                     flex-basis: 60%;
                     padding: 0.3rem;
                     background: linear-gradient(to left, $color-emerald, #4d9079c0);
@@ -113,5 +113,14 @@
         color: transparent;
 
     }
+}
+
+.error {
+    display: inline-block;
+    margin: 1.5rem;
+    background-color: rgb(156, 43, 43);
+    padding: 2rem;
+    color: $bg-color;
+
 }
 
