@@ -7,15 +7,15 @@ const profile = document.querySelector(".profile")
 
 form.addEventListener("submit", (e)=>{
     github.getData(searchInput.value).then((response)=>{
-        if (searchInput.value !== ""){
-            ui.showUser(profile, response.profile, response.repo);
-            if (response.profile.message === "Not Found"){
-                profile.innerHTML = `<div class='error'> User: "${searchInput.value}" Not Found ! <div>`;
-            }
-            searchInput.value = "";
-        }
-        else{
+        if (searchInput.value === ""){
             profile.innerHTML = "<div class='error'> PLEASE INPUT A USERNAME ! <div>"
+        }
+        else if (response.profile.message === "Not Found"){
+            profile.innerHTML = `<div class='error'> USER: "${searchInput.value}" NOT FOUND ! </div>`;
+        }
+        else if (searchInput.value !== ""){
+            ui.showUser(profile, response.profile, response.repo);
+            searchInput.value = "";
         }
         
     }).catch((err)=>{
